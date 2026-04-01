@@ -12,6 +12,8 @@ public static Logger logger=LoggerFactory.getLogger(SpringJunkinsApplicationTest
 	void contextLoads() {
 		logger.info("Test case executing....");
 		logger.info("Test case executing. second log statement...");
+		logger.info("Test case executing. Third log statement for email configuration...");
+		
 		 assertEquals(true, true);
 	}
 
