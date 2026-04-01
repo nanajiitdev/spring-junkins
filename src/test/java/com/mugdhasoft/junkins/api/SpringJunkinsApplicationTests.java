@@ -13,6 +13,7 @@ public static Logger logger=LoggerFactory.getLogger(SpringJunkinsApplicationTest
 		logger.info("Test case executing....");
 		logger.info("Test case executing. second log statement...");
 		logger.info("Test case executing. Third log statement for email configuration...");
+		logger.info("Test case executing. 4th log statement for email configuration...");
 		
 		 assertEquals(true, true);
 	}
